@@ -3,7 +3,7 @@ import numpy as np
 from ultralytics import YOLO
 
 # YOLO for vehicle detection
-model = YOLO("yolov8n.pt")
+model = YOLO("backend/yolov8n.pt")
 VEHICLE_CLASSES = [2, 3, 5, 7]  # car, bike, bus, truck
 
 # Background subtractor (CCTV static camera)
