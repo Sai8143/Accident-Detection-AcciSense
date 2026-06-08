@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     ffmpeg
 
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install -r backend/requirements.txt
 
 EXPOSE 7860
 
